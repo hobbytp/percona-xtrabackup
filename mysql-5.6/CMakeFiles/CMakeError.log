@@ -1,0 +1,2227 @@
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1695364780/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1695364780.dir/build.make CMakeFiles/cmTryCompileExec1695364780.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1695364780.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec1695364780.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function ‘floor’ [enabled by default]
+Linking C executable cmTryCompileExec1695364780
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1695364780.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec1695364780.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1695364780 -rdynamic 
+CMakeFiles/cmTryCompileExec1695364780.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1695364780] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1695364780/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3077796496/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3077796496.dir/build.make CMakeFiles/cmTryCompileExec3077796496.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3077796496.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTryCompileExec3077796496.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3077796496
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3077796496.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec3077796496.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3077796496 -rdynamic 
+CMakeFiles/cmTryCompileExec3077796496.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `crypt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3077796496] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3077796496/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec231771422/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec231771422.dir/build.make CMakeFiles/cmTryCompileExec231771422.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec231771422.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec231771422.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec231771422
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec231771422.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec231771422.dir/CheckFunctionExists.c.o  -o cmTryCompileExec231771422 -rdynamic 
+CMakeFiles/cmTryCompileExec231771422.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec231771422] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec231771422/fast] Error 2
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2178114365/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2178114365.dir/build.make CMakeFiles/cmTryCompileExec2178114365.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2178114365.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2178114365.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2178114365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2178114365.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2178114365.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2178114365 -rdynamic 
+CMakeFiles/cmTryCompileExec2178114365.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `clock_gettime'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2178114365] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2178114365/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1733504061/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1733504061.dir/build.make CMakeFiles/cmTryCompileExec1733504061.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1733504061.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1733504061.dir/CheckSymbolExists.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1733504061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1733504061.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall      CMakeFiles/cmTryCompileExec1733504061.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1733504061 -rdynamic 
+CMakeFiles/cmTryCompileExec1733504061.dir/CheckSymbolExists.c.o: In function `main':
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1733504061] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1733504061/fast] Error 2
+
+File /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec668279701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec668279701.dir/build.make CMakeFiles/cmTryCompileExec668279701.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec668279701.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec668279701.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec668279701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec668279701.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec668279701.dir/CheckFunctionExists.c.o  -o cmTryCompileExec668279701 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec668279701] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec668279701/fast] Error 2
+
+
+Determining if files cxxabi.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2077154852/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2077154852.dir/build.make CMakeFiles/cmTryCompileExec2077154852.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2077154852.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2077154852.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: cxxabi.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2077154852.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2077154852/fast] Error 2
+
+Source:
+/* */
+#include <cxxabi.h>
+
+
+int main(){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1626817384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1626817384.dir/build.make CMakeFiles/cmTryCompileExec1626817384.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1626817384.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1626817384.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: floatingpoint.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1626817384.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1626817384/fast] Error 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3515664853/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3515664853.dir/build.make CMakeFiles/cmTryCompileExec3515664853.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3515664853.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3515664853.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3515664853.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3515664853/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1907379616/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1907379616.dir/build.make CMakeFiles/cmTryCompileExec1907379616.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1907379616.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1907379616.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: ndir.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1907379616.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1907379616/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec8961813/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec8961813.dir/build.make CMakeFiles/cmTryCompileExec8961813.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec8961813.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec8961813.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: port.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec8961813.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec8961813/fast] Error 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1752372735/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1752372735.dir/build.make CMakeFiles/cmTryCompileExec1752372735.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1752372735.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1752372735.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: select.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1752372735.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1752372735/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1543311282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1543311282.dir/build.make CMakeFiles/cmTryCompileExec1543311282.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1543311282.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1543311282.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ndir.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1543311282.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1543311282/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3329144535/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3329144535.dir/build.make CMakeFiles/cmTryCompileExec3329144535.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3329144535.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3329144535.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/pte.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3329144535.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3329144535/fast] Error 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3155918700/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3155918700.dir/build.make CMakeFiles/cmTryCompileExec3155918700.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3155918700.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3155918700.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: synch.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3155918700.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3155918700/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1748880351/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1748880351.dir/build.make CMakeFiles/cmTryCompileExec1748880351.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1748880351.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1748880351.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: sysent.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1748880351.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1748880351/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec49399399/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec49399399.dir/build.make CMakeFiles/cmTryCompileExec49399399.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec49399399.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec49399399.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/fpu.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec49399399.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec49399399/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1580038460/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1580038460.dir/build.make CMakeFiles/cmTryCompileExec1580038460.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1580038460.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1580038460.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/malloc.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1580038460.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1580038460/fast] Error 2
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3077734314/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3077734314.dir/build.make CMakeFiles/cmTryCompileExec3077734314.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3077734314.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3077734314.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/stream.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3077734314.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3077734314/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3729239311/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3729239311.dir/build.make CMakeFiles/cmTryCompileExec3729239311.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3729239311.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3729239311.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/termcap.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3729239311.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3729239311/fast] Error 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files curses.h;term.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1882467045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1882467045.dir/build.make CMakeFiles/cmTryCompileExec1882467045.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1882467045.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1882467045.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: curses.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1882467045.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1882467045/fast] Error 2
+
+Source:
+/* */
+#include <curses.h>
+#include <term.h>
+
+
+int main(){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2434185283/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2434185283.dir/build.make CMakeFiles/cmTryCompileExec2434185283.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2434185283.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2434185283.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: termbits.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2434185283.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2434185283/fast] Error 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(){return 0;}
+
+Determining if files termcap.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3158969414/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3158969414.dir/build.make CMakeFiles/cmTryCompileExec3158969414.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3158969414.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3158969414.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: termcap.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3158969414.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3158969414/fast] Error 2
+
+Source:
+/* */
+#include <termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4126877271/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4126877271.dir/build.make CMakeFiles/cmTryCompileExec4126877271.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4126877271.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4126877271.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/varargs.h:4:2: error: #error "GCC no longer implements <varargs.h>."
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/varargs.h:5:2: error: #error "Revise your code to use <stdarg.h>."
+make[1]: *** [CMakeFiles/cmTryCompileExec4126877271.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4126877271/fast] Error 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3590090093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3590090093.dir/build.make CMakeFiles/cmTryCompileExec3590090093.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3590090093.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3590090093.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/utime.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3590090093.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3590090093/fast] Error 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3039420229/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3039420229.dir/build.make CMakeFiles/cmTryCompileExec3039420229.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3039420229.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3039420229.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/vadvise.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3039420229.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3039420229/fast] Error 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3066248177/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3066248177.dir/build.make CMakeFiles/cmTryCompileExec3066248177.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3066248177.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3066248177.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: vis.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3066248177.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3066248177/fast] Error 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec522908218/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec522908218.dir/build.make CMakeFiles/cmTryCompileExec522908218.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec522908218.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec522908218.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec522908218.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec522908218/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2655578153/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2655578153.dir/build.make CMakeFiles/cmTryCompileExec2655578153.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2655578153.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2655578153.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2655578153.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2655578153/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/event.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3246198276/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3246198276.dir/build.make CMakeFiles/cmTryCompileExec3246198276.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3246198276.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3246198276.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/event.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3246198276.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3246198276/fast] Error 2
+
+Source:
+/* */
+#include <sys/event.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3862371175/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3862371175.dir/build.make CMakeFiles/cmTryCompileExec3862371175.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3862371175.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3862371175.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ptem.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3862371175.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3862371175/fast] Error 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3420609819/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3420609819.dir/build.make CMakeFiles/cmTryCompileExec3420609819.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3420609819.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTryCompileExec3420609819.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3420609819
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3420609819.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTryCompileExec3420609819.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3420609819 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3420609819.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3420609819] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3420609819/fast] Error 2
+
+
+Determining if the function _aligned_free exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1701476634/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1701476634.dir/build.make CMakeFiles/cmTryCompileExec1701476634.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1701476634.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_aligned_free   -o CMakeFiles/cmTryCompileExec1701476634.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1701476634
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1701476634.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_aligned_free    CMakeFiles/cmTryCompileExec1701476634.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1701476634 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1701476634.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `_aligned_free'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1701476634] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1701476634/fast] Error 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1144681173/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1144681173.dir/build.make CMakeFiles/cmTryCompileExec1144681173.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1144681173.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTryCompileExec1144681173.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1144681173
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1144681173.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTryCompileExec1144681173.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1144681173 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1144681173.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `printstack'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1144681173] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1144681173/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1253649600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1253649600.dir/build.make CMakeFiles/cmTryCompileExec1253649600.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1253649600.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTryCompileExec1253649600.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1253649600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1253649600.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTryCompileExec1253649600.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1253649600 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1253649600.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `bmove'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1253649600] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1253649600/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec912252225/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec912252225.dir/build.make CMakeFiles/cmTryCompileExec912252225.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec912252225.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec912252225.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec912252225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec912252225.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec912252225.dir/CheckFunctionExists.c.o  -o cmTryCompileExec912252225 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec912252225.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `directio'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec912252225] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec912252225/fast] Error 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec901510893/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec901510893.dir/build.make CMakeFiles/cmTryCompileExec901510893.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec901510893.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTryCompileExec901510893.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec901510893
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec901510893.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTryCompileExec901510893.dir/CheckFunctionExists.c.o  -o cmTryCompileExec901510893 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec901510893.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `_doprnt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec901510893] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec901510893/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec251022678/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec251022678.dir/build.make CMakeFiles/cmTryCompileExec251022678.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec251022678.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTryCompileExec251022678.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec251022678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec251022678.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec251022678.dir/CheckFunctionExists.c.o  -o cmTryCompileExec251022678 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec251022678.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `compress'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec251022678] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec251022678/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2605240753/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2605240753.dir/build.make CMakeFiles/cmTryCompileExec2605240753.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2605240753.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTryCompileExec2605240753.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2605240753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2605240753.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTryCompileExec2605240753.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2605240753 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2605240753.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `fconvert'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2605240753] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2605240753/fast] Error 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1965867368/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1965867368.dir/build.make CMakeFiles/cmTryCompileExec1965867368.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1965867368.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fpsetmask   -o CMakeFiles/cmTryCompileExec1965867368.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1965867368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1965867368.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fpsetmask    CMakeFiles/cmTryCompileExec1965867368.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1965867368 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1965867368.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `fpsetmask'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1965867368] Error 1
+make: *** [cmTryCompileExec1965867368/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1699913201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1699913201.dir/build.make CMakeFiles/cmTryCompileExec1699913201.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1699913201.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTryCompileExec1699913201.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1699913201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1699913201.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec1699913201.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1699913201 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1699913201.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1699913201] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1699913201/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3578046569/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3578046569.dir/build.make CMakeFiles/cmTryCompileExec3578046569.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3578046569.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTryCompileExec3578046569.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3578046569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3578046569.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec3578046569.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3578046569 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3578046569.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `getpassphrase'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3578046569] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3578046569/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3333242351/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3333242351.dir/build.make CMakeFiles/cmTryCompileExec3333242351.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3333242351.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTryCompileExec3333242351.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3333242351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3333242351.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTryCompileExec3333242351.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3333242351 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3333242351.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3333242351] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3333242351/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3481513207/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3481513207.dir/build.make CMakeFiles/cmTryCompileExec3481513207.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3481513207.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTryCompileExec3481513207.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3481513207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3481513207.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTryCompileExec3481513207.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3481513207 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3481513207.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `port_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3481513207] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3481513207/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2078029864/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2078029864.dir/build.make CMakeFiles/cmTryCompileExec2078029864.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2078029864.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTryCompileExec2078029864.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2078029864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2078029864.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTryCompileExec2078029864.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2078029864 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2078029864.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_attr_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2078029864] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2078029864/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1379097011/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1379097011.dir/build.make CMakeFiles/cmTryCompileExec1379097011.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1379097011.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTryCompileExec1379097011.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1379097011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1379097011.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTryCompileExec1379097011.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1379097011 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1379097011.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_condattr_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1379097011] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1379097011/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2930878509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2930878509.dir/build.make CMakeFiles/cmTryCompileExec2930878509.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2930878509.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTryCompileExec2930878509.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2930878509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2930878509.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTryCompileExec2930878509.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2930878509 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2930878509.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_threadmask'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2930878509] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2930878509/fast] Error 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec714916396/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec714916396.dir/build.make CMakeFiles/cmTryCompileExec714916396.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec714916396.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTryCompileExec714916396.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec714916396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec714916396.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTryCompileExec714916396.dir/CheckFunctionExists.c.o  -o cmTryCompileExec714916396 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec714916396.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_yield_np'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec714916396] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec714916396/fast] Error 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1894243080/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1894243080.dir/build.make CMakeFiles/cmTryCompileExec1894243080.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1894243080.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTryCompileExec1894243080.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1894243080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1894243080.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rwlock_init    CMakeFiles/cmTryCompileExec1894243080.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1894243080 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1894243080.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `rwlock_init'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1894243080] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1894243080/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1979955513/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1979955513.dir/build.make CMakeFiles/cmTryCompileExec1979955513.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1979955513.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTryCompileExec1979955513.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1979955513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1979955513.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec1979955513.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1979955513 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1979955513.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `setfd'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1979955513] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1979955513/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4010186396/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4010186396.dir/build.make CMakeFiles/cmTryCompileExec4010186396.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4010186396.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTryCompileExec4010186396.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4010186396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4010186396.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTryCompileExec4010186396.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4010186396 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4010186396.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `sigthreadmask'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4010186396] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4010186396/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1497108609/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1497108609.dir/build.make CMakeFiles/cmTryCompileExec1497108609.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1497108609.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec1497108609.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1497108609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1497108609.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec1497108609.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1497108609 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1497108609.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1497108609] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1497108609/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec306653743/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec306653743.dir/build.make CMakeFiles/cmTryCompileExec306653743.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec306653743.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec306653743.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec306653743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec306653743.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec306653743.dir/CheckFunctionExists.c.o  -o cmTryCompileExec306653743 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec306653743.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec306653743] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec306653743/fast] Error 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1551614939/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1551614939.dir/build.make CMakeFiles/cmTryCompileExec1551614939.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1551614939.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTryCompileExec1551614939.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1551614939
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1551614939.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTryCompileExec1551614939.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1551614939 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1551614939.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `fgetln'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1551614939] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1551614939/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec227560071/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec227560071.dir/build.make CMakeFiles/cmTryCompileExec227560071.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec227560071.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec227560071.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec227560071
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec227560071.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec227560071.dir/CheckFunctionExists.c.o  -o cmTryCompileExec227560071 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec227560071.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `tell'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec227560071] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec227560071/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec817608224/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec817608224.dir/build.make CMakeFiles/cmTryCompileExec817608224.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec817608224.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTryCompileExec817608224.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec817608224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec817608224.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTryCompileExec817608224.dir/CheckFunctionExists.c.o  -o cmTryCompileExec817608224 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec817608224.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `thr_setconcurrency'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec817608224] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec817608224/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1421382338/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1421382338.dir/build.make CMakeFiles/cmTryCompileExec1421382338.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1421382338.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTryCompileExec1421382338.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1421382338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1421382338.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTryCompileExec1421382338.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1421382338 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1421382338.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `thr_yield'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1421382338] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1421382338/fast] Error 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec710282100/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec710282100.dir/build.make CMakeFiles/cmTryCompileExec710282100.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec710282100.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=ntohll   -o CMakeFiles/cmTryCompileExec710282100.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec710282100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec710282100.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=ntohll    CMakeFiles/cmTryCompileExec710282100.dir/CheckFunctionExists.c.o  -o cmTryCompileExec710282100 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec710282100.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `ntohll'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec710282100] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec710282100/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2713005115/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2713005115.dir/build.make CMakeFiles/cmTryCompileExec2713005115.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2713005115.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec2713005115.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2713005115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2713005115.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec2713005115.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2713005115 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2713005115.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2713005115] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2713005115/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec904318891/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec904318891.dir/build.make CMakeFiles/cmTryCompileExec904318891.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec904318891.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec904318891.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec904318891
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec904318891.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec904318891.dir/CheckFunctionExists.c.o  -o cmTryCompileExec904318891 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec904318891.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec904318891] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec904318891/fast] Error 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3512464393/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3512464393.dir/build.make CMakeFiles/cmTryCompileExec3512464393.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3512464393.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3512464393.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: ia64intrin.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3512464393.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3512464393/fast] Error 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3267029722/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3267029722.dir/build.make CMakeFiles/cmTryCompileExec3267029722.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3267029722.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTryCompileExec3267029722.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3267029722
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3267029722.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=read_real_time    CMakeFiles/cmTryCompileExec3267029722.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3267029722 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3267029722.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `read_real_time'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3267029722] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3267029722/fast] Error 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1020071133/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1020071133.dir/build.make CMakeFiles/cmTryCompileExec1020071133.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1020071133.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTryCompileExec1020071133.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1020071133
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1020071133.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rdtscll    CMakeFiles/cmTryCompileExec1020071133.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1020071133 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1020071133.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `rdtscll'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1020071133] Error 1
+make: *** [cmTryCompileExec1020071133/fast] Error 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2517196526/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2517196526.dir/build.make CMakeFiles/cmTryCompileExec2517196526.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2517196526.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2517196526.dir/CheckSymbolExists.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘TIOCSTAT’ undeclared (first use in this function)
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2517196526.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTryCompileExec2517196526/fast] Error 2
+
+File /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2077314813/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2077314813.dir/build.make CMakeFiles/cmTryCompileExec2077314813.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2077314813.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2077314813.dir/CheckSymbolExists.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: sys/filio.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2077314813.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2077314813/fast] Error 2
+
+File /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2125462849/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2125462849.dir/build.make CMakeFiles/cmTryCompileExec2125462849.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2125462849.dir/TestEndianess.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2125462849.dir/TestEndianess.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2125462849
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2125462849.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall      CMakeFiles/cmTryCompileExec2125462849.dir/TestEndianess.c.o  -o cmTryCompileExec2125462849 -rdynamic 
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3483321137/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3483321137.dir/build.make CMakeFiles/cmTryCompileExec3483321137.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3483321137.dir/SIZEOF_UCHAR.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3483321137.dir/SIZEOF_UCHAR.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21:12: error: ‘uchar’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec3483321137.dir/SIZEOF_UCHAR.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3483321137/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4189138899/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4189138899.dir/build.make CMakeFiles/cmTryCompileExec4189138899.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4189138899.dir/SIZEOF_INT8.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4189138899.dir/SIZEOF_INT8.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21:12: error: ‘int8’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec4189138899.dir/SIZEOF_INT8.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4189138899/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3182682155/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3182682155.dir/build.make CMakeFiles/cmTryCompileExec3182682155.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3182682155.dir/SIZEOF_UINT8.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3182682155.dir/SIZEOF_UINT8.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21:12: error: ‘uint8’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec3182682155.dir/SIZEOF_UINT8.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3182682155/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3129663548/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3129663548.dir/build.make CMakeFiles/cmTryCompileExec3129663548.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3129663548.dir/SIZEOF_INT16.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3129663548.dir/SIZEOF_INT16.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21:12: error: ‘int16’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3129663548.dir/SIZEOF_INT16.c.o] Error 1
+make: *** [cmTryCompileExec3129663548/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3556946116/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3556946116.dir/build.make CMakeFiles/cmTryCompileExec3556946116.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3556946116.dir/SIZEOF_UINT16.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3556946116.dir/SIZEOF_UINT16.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21:12: error: ‘uint16’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3556946116.dir/SIZEOF_UINT16.c.o] Error 1
+make: *** [cmTryCompileExec3556946116/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4188907467/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4188907467.dir/build.make CMakeFiles/cmTryCompileExec4188907467.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4188907467.dir/SIZEOF_INT32.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4188907467.dir/SIZEOF_INT32.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21:12: error: ‘int32’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4188907467.dir/SIZEOF_INT32.c.o] Error 1
+make: *** [cmTryCompileExec4188907467/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec842245779/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec842245779.dir/build.make CMakeFiles/cmTryCompileExec842245779.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec842245779.dir/SIZEOF_UINT32.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec842245779.dir/SIZEOF_UINT32.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21:12: error: ‘uint32’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec842245779.dir/SIZEOF_UINT32.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec842245779/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1371608660/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1371608660.dir/build.make CMakeFiles/cmTryCompileExec1371608660.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1371608660.dir/SIZEOF_INT64.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1371608660.dir/SIZEOF_INT64.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21:12: error: ‘int64’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec1371608660.dir/SIZEOF_INT64.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1371608660/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2305459376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2305459376.dir/build.make CMakeFiles/cmTryCompileExec2305459376.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2305459376.dir/SIZEOF_UINT64.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2305459376.dir/SIZEOF_UINT64.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21:12: error: ‘uint64’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec2305459376.dir/SIZEOF_UINT64.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2305459376/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1871288896/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1871288896.dir/build.make CMakeFiles/cmTryCompileExec1871288896.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1871288896.dir/SIZEOF_BOOL.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1871288896.dir/SIZEOF_BOOL.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: error: ‘bool’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec1871288896.dir/SIZEOF_BOOL.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1871288896/fast] Error 2
+
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1452714339/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1452714339.dir/build.make CMakeFiles/cmTryCompileExec1452714339.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1452714339.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DTIME_T_UNSIGNED   -o CMakeFiles/cmTryCompileExec1452714339.dir/src.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:4:16: error: ‘time_t’ undeclared (first use in this function)
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:4:16: note: each undeclared identifier is reported only once for each function it appears in
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:4:7: warning: unused variable ‘array’ [-Wunused-variable]
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1452714339.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1452714339/fast] Error 2
+
+Source file was:
+
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1323317103/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1323317103.dir/build.make CMakeFiles/cmTryCompileExec1323317103.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1323317103.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTryCompileExec1323317103.dir/src.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:7:10: error: ‘struct timespec’ has no member named ‘ts_sec’
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:8:10: error: ‘struct timespec’ has no member named ‘ts_nsec’
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:6:19: warning: variable ‘abstime’ set but not used [-Wunused-but-set-variable]
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+make[1]: *** [CMakeFiles/cmTryCompileExec1323317103.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1323317103/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1185800769/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1185800769.dir/build.make CMakeFiles/cmTryCompileExec1185800769.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1185800769.dir/src.cxx.o
+/usr/bin/c++   -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall -Wno-unused-parameter  -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTryCompileExec1185800769.dir/src.cxx.o -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.cxx
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.cxx:17:66: error: cannot convert ‘int*’ to ‘hostent**’ for argument ‘7’ to ‘int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)’
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.cxx:15:24: warning: unused variable ‘foo’ [-Wunused-variable]
+make[1]: *** [CMakeFiles/cmTryCompileExec1185800769.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1185800769/fast] Error 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1111600875/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1111600875.dir/build.make CMakeFiles/cmTryCompileExec1111600875.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1111600875.dir/CheckIncludeFile.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1111600875.dir/CheckIncludeFile.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1111600875.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1111600875/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec982146838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec982146838.dir/build.make CMakeFiles/cmTryCompileExec982146838.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec982146838.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTryCompileExec982146838.dir/src.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:9:7: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+make[1]: *** [CMakeFiles/cmTryCompileExec982146838.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec982146838/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in* tmp;
+   tmp->sin_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2644006376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2644006376.dir/build.make CMakeFiles/cmTryCompileExec2644006376.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2644006376.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTryCompileExec2644006376.dir/src.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:9:7: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+make[1]: *** [CMakeFiles/cmTryCompileExec2644006376.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2644006376/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in6* tmp;
+   tmp->sin6_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test STRUCT_DIRENT_HAS_D_NAMLEN failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2998128421/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2998128421.dir/build.make CMakeFiles/cmTryCompileExec2998128421.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2998128421.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DSTRUCT_DIRENT_HAS_D_NAMLEN   -o CMakeFiles/cmTryCompileExec2998128421.dir/src.c.o   -c /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/src.c:7:7: error: ‘struct dirent’ has no member named ‘d_namlen’
+make[1]: *** [CMakeFiles/cmTryCompileExec2998128421.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2998128421/fast] Error 2
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   struct dirent* tmp;
+   tmp->d_namlen;
+  return 0;
+}
+
+Determining if the function mbscmp exists failed with the following output:
+Change Dir: /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2881569033/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2881569033.dir/build.make CMakeFiles/cmTryCompileExec2881569033.dir/build
+make[1]: Entering directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2881569033.dir/CheckFunctionExists.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=mbscmp   -o CMakeFiles/cmTryCompileExec2881569033.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2881569033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2881569033.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=mbscmp    CMakeFiles/cmTryCompileExec2881569033.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2881569033 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2881569033.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `mbscmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2881569033] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/boo/percona-xtrabackup-2.1.2-611.precise/mysql-5.6/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2881569033/fast] Error 2
+
+

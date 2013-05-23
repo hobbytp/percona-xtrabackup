@@ -1,0 +1,2081 @@
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec265825318/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec265825318.dir/build.make CMakeFiles/cmTryCompileExec265825318.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec265825318.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec265825318.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function ‘floor’ [enabled by default]
+Linking C executable cmTryCompileExec265825318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec265825318.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec265825318.dir/CheckFunctionExists.c.o  -o cmTryCompileExec265825318 -rdynamic 
+CMakeFiles/cmTryCompileExec265825318.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec265825318] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec265825318/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2110058093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2110058093.dir/build.make CMakeFiles/cmTryCompileExec2110058093.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2110058093.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTryCompileExec2110058093.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2110058093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2110058093.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec2110058093.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2110058093 -rdynamic 
+CMakeFiles/cmTryCompileExec2110058093.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `crypt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2110058093] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2110058093/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1001961622/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1001961622.dir/build.make CMakeFiles/cmTryCompileExec1001961622.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1001961622.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec1001961622.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1001961622
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1001961622.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec1001961622.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1001961622 -rdynamic 
+CMakeFiles/cmTryCompileExec1001961622.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1001961622] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1001961622/fast] Error 2
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec19654856/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec19654856.dir/build.make CMakeFiles/cmTryCompileExec19654856.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec19654856.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec19654856.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec19654856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19654856.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec19654856.dir/CheckFunctionExists.c.o  -o cmTryCompileExec19654856 -rdynamic 
+CMakeFiles/cmTryCompileExec19654856.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `clock_gettime'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec19654856] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec19654856/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3089759502/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3089759502.dir/build.make CMakeFiles/cmTryCompileExec3089759502.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3089759502.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3089759502.dir/CheckSymbolExists.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3089759502
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3089759502.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall      CMakeFiles/cmTryCompileExec3089759502.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3089759502 -rdynamic 
+CMakeFiles/cmTryCompileExec3089759502.dir/CheckSymbolExists.c.o: In function `main':
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3089759502] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3089759502/fast] Error 2
+
+File /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3934039410/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3934039410.dir/build.make CMakeFiles/cmTryCompileExec3934039410.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3934039410.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3934039410.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3934039410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3934039410.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3934039410.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3934039410 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3934039410] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3934039410/fast] Error 2
+
+
+Determining if files cxxabi.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1695601067/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1695601067.dir/build.make CMakeFiles/cmTryCompileExec1695601067.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1695601067.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1695601067.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: cxxabi.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1695601067.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1695601067/fast] Error 2
+
+Source:
+/* */
+#include <cxxabi.h>
+
+
+int main(){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1650611142/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1650611142.dir/build.make CMakeFiles/cmTryCompileExec1650611142.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1650611142.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1650611142.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: floatingpoint.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1650611142.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1650611142/fast] Error 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4015144470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4015144470.dir/build.make CMakeFiles/cmTryCompileExec4015144470.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4015144470.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4015144470.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec4015144470.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4015144470/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3516491870/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3516491870.dir/build.make CMakeFiles/cmTryCompileExec3516491870.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3516491870.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3516491870.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: ndir.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3516491870.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3516491870/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec605563503/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec605563503.dir/build.make CMakeFiles/cmTryCompileExec605563503.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec605563503.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec605563503.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: port.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec605563503.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec605563503/fast] Error 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1546458051/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1546458051.dir/build.make CMakeFiles/cmTryCompileExec1546458051.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1546458051.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1546458051.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: select.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1546458051.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1546458051/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2563487286/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2563487286.dir/build.make CMakeFiles/cmTryCompileExec2563487286.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2563487286.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2563487286.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ndir.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2563487286.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2563487286/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec889265748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec889265748.dir/build.make CMakeFiles/cmTryCompileExec889265748.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec889265748.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec889265748.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/pte.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec889265748.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec889265748/fast] Error 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2687025941/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2687025941.dir/build.make CMakeFiles/cmTryCompileExec2687025941.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2687025941.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2687025941.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: synch.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2687025941.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2687025941/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2986328698/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2986328698.dir/build.make CMakeFiles/cmTryCompileExec2986328698.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2986328698.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2986328698.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: sysent.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2986328698.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2986328698/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec396632849/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec396632849.dir/build.make CMakeFiles/cmTryCompileExec396632849.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec396632849.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec396632849.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/fpu.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec396632849.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec396632849/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2490322337/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2490322337.dir/build.make CMakeFiles/cmTryCompileExec2490322337.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2490322337.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2490322337.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/malloc.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2490322337.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2490322337/fast] Error 2
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3420541034/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3420541034.dir/build.make CMakeFiles/cmTryCompileExec3420541034.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3420541034.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3420541034.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/stream.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3420541034.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3420541034/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec322329664/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec322329664.dir/build.make CMakeFiles/cmTryCompileExec322329664.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec322329664.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec322329664.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/termcap.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec322329664.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec322329664/fast] Error 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files curses.h;term.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1656894342/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1656894342.dir/build.make CMakeFiles/cmTryCompileExec1656894342.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1656894342.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1656894342.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: curses.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1656894342.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1656894342/fast] Error 2
+
+Source:
+/* */
+#include <curses.h>
+#include <term.h>
+
+
+int main(){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1323610416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1323610416.dir/build.make CMakeFiles/cmTryCompileExec1323610416.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1323610416.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1323610416.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: termbits.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1323610416.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1323610416/fast] Error 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(){return 0;}
+
+Determining if files termcap.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec942271466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec942271466.dir/build.make CMakeFiles/cmTryCompileExec942271466.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec942271466.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec942271466.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: termcap.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec942271466.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec942271466/fast] Error 2
+
+Source:
+/* */
+#include <termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4066192736/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4066192736.dir/build.make CMakeFiles/cmTryCompileExec4066192736.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4066192736.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4066192736.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/varargs.h:4:2: error: #error "GCC no longer implements <varargs.h>."
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/varargs.h:5:2: error: #error "Revise your code to use <stdarg.h>."
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4066192736.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec4066192736/fast] Error 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2136955011/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2136955011.dir/build.make CMakeFiles/cmTryCompileExec2136955011.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2136955011.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2136955011.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/utime.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2136955011.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2136955011/fast] Error 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec388864242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec388864242.dir/build.make CMakeFiles/cmTryCompileExec388864242.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec388864242.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec388864242.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/vadvise.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec388864242.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec388864242/fast] Error 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3470348035/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3470348035.dir/build.make CMakeFiles/cmTryCompileExec3470348035.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3470348035.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3470348035.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: vis.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3470348035.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3470348035/fast] Error 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec950406845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec950406845.dir/build.make CMakeFiles/cmTryCompileExec950406845.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec950406845.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec950406845.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ptem.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec950406845.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec950406845/fast] Error 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(){return 0;}
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2936841208/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2936841208.dir/build.make CMakeFiles/cmTryCompileExec2936841208.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2936841208.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTryCompileExec2936841208.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2936841208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2936841208.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTryCompileExec2936841208.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2936841208 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2936841208.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `printstack'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2936841208] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2936841208/fast] Error 2
+
+
+Determining if the function bfill exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2390653209/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2390653209.dir/build.make CMakeFiles/cmTryCompileExec2390653209.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2390653209.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=bfill   -o CMakeFiles/cmTryCompileExec2390653209.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2390653209
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2390653209.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=bfill    CMakeFiles/cmTryCompileExec2390653209.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2390653209 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2390653209.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `bfill'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2390653209] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2390653209/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1423674683/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1423674683.dir/build.make CMakeFiles/cmTryCompileExec1423674683.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1423674683.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTryCompileExec1423674683.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1423674683
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1423674683.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTryCompileExec1423674683.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1423674683 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1423674683.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `bmove'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1423674683] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1423674683/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3021854430/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3021854430.dir/build.make CMakeFiles/cmTryCompileExec3021854430.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3021854430.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec3021854430.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3021854430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3021854430.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec3021854430.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3021854430 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3021854430.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `directio'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3021854430] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3021854430/fast] Error 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3891897652/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3891897652.dir/build.make CMakeFiles/cmTryCompileExec3891897652.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3891897652.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTryCompileExec3891897652.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3891897652
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3891897652.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTryCompileExec3891897652.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3891897652 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3891897652.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `_doprnt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3891897652] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3891897652/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec801466481/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec801466481.dir/build.make CMakeFiles/cmTryCompileExec801466481.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec801466481.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTryCompileExec801466481.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec801466481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec801466481.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec801466481.dir/CheckFunctionExists.c.o  -o cmTryCompileExec801466481 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec801466481.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `compress'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec801466481] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec801466481/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1588474985/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1588474985.dir/build.make CMakeFiles/cmTryCompileExec1588474985.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1588474985.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTryCompileExec1588474985.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1588474985
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1588474985.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTryCompileExec1588474985.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1588474985 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1588474985.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `fconvert'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1588474985] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1588474985/fast] Error 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec399354790/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec399354790.dir/build.make CMakeFiles/cmTryCompileExec399354790.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec399354790.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fpsetmask   -o CMakeFiles/cmTryCompileExec399354790.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec399354790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec399354790.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fpsetmask    CMakeFiles/cmTryCompileExec399354790.dir/CheckFunctionExists.c.o  -o cmTryCompileExec399354790 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec399354790.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `fpsetmask'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec399354790] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec399354790/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2285427270/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2285427270.dir/build.make CMakeFiles/cmTryCompileExec2285427270.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2285427270.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTryCompileExec2285427270.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2285427270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2285427270.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec2285427270.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2285427270 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2285427270.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2285427270] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2285427270/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3690544830/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3690544830.dir/build.make CMakeFiles/cmTryCompileExec3690544830.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3690544830.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTryCompileExec3690544830.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3690544830
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3690544830.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec3690544830.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3690544830 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3690544830.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `getpassphrase'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3690544830] Error 1
+make: *** [cmTryCompileExec3690544830/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2868941829/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2868941829.dir/build.make CMakeFiles/cmTryCompileExec2868941829.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2868941829.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTryCompileExec2868941829.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2868941829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2868941829.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTryCompileExec2868941829.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2868941829 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2868941829.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2868941829] Error 1
+make: *** [cmTryCompileExec2868941829/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3051962709/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3051962709.dir/build.make CMakeFiles/cmTryCompileExec3051962709.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3051962709.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTryCompileExec3051962709.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3051962709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3051962709.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTryCompileExec3051962709.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3051962709 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3051962709.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `port_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3051962709] Error 1
+make: *** [cmTryCompileExec3051962709/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2574530380/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2574530380.dir/build.make CMakeFiles/cmTryCompileExec2574530380.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2574530380.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTryCompileExec2574530380.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2574530380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2574530380.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTryCompileExec2574530380.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2574530380 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2574530380.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_attr_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2574530380] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2574530380/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3183732115/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3183732115.dir/build.make CMakeFiles/cmTryCompileExec3183732115.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3183732115.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTryCompileExec3183732115.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3183732115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3183732115.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTryCompileExec3183732115.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3183732115 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3183732115.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_condattr_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3183732115] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3183732115/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec700652305/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec700652305.dir/build.make CMakeFiles/cmTryCompileExec700652305.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec700652305.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTryCompileExec700652305.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec700652305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec700652305.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTryCompileExec700652305.dir/CheckFunctionExists.c.o  -o cmTryCompileExec700652305 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec700652305.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_threadmask'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec700652305] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec700652305/fast] Error 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2129985962/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2129985962.dir/build.make CMakeFiles/cmTryCompileExec2129985962.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2129985962.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTryCompileExec2129985962.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2129985962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2129985962.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTryCompileExec2129985962.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2129985962 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2129985962.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `pthread_yield_np'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2129985962] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2129985962/fast] Error 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3229747588/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3229747588.dir/build.make CMakeFiles/cmTryCompileExec3229747588.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3229747588.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTryCompileExec3229747588.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3229747588
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3229747588.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rwlock_init    CMakeFiles/cmTryCompileExec3229747588.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3229747588 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3229747588.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `rwlock_init'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3229747588] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3229747588/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec745082337/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec745082337.dir/build.make CMakeFiles/cmTryCompileExec745082337.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec745082337.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTryCompileExec745082337.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec745082337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec745082337.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec745082337.dir/CheckFunctionExists.c.o  -o cmTryCompileExec745082337 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec745082337.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `setfd'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec745082337] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec745082337/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1790018435/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1790018435.dir/build.make CMakeFiles/cmTryCompileExec1790018435.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1790018435.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTryCompileExec1790018435.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1790018435
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1790018435.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTryCompileExec1790018435.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1790018435 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1790018435.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `sigthreadmask'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1790018435] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1790018435/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2481499764/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2481499764.dir/build.make CMakeFiles/cmTryCompileExec2481499764.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2481499764.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec2481499764.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2481499764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2481499764.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec2481499764.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2481499764 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2481499764.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2481499764] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2481499764/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4277079244/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4277079244.dir/build.make CMakeFiles/cmTryCompileExec4277079244.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4277079244.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec4277079244.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4277079244
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4277079244.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec4277079244.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4277079244 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4277079244.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4277079244] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4277079244/fast] Error 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1319036582/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1319036582.dir/build.make CMakeFiles/cmTryCompileExec1319036582.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1319036582.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTryCompileExec1319036582.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1319036582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1319036582.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTryCompileExec1319036582.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1319036582 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1319036582.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `fgetln'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1319036582] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1319036582/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4195358159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4195358159.dir/build.make CMakeFiles/cmTryCompileExec4195358159.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4195358159.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec4195358159.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4195358159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4195358159.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec4195358159.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4195358159 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4195358159.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `tell'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4195358159] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4195358159/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec173672702/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec173672702.dir/build.make CMakeFiles/cmTryCompileExec173672702.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec173672702.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTryCompileExec173672702.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec173672702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec173672702.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTryCompileExec173672702.dir/CheckFunctionExists.c.o  -o cmTryCompileExec173672702 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec173672702.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `thr_setconcurrency'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec173672702] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec173672702/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec864908988/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec864908988.dir/build.make CMakeFiles/cmTryCompileExec864908988.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec864908988.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTryCompileExec864908988.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec864908988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec864908988.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTryCompileExec864908988.dir/CheckFunctionExists.c.o  -o cmTryCompileExec864908988 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec864908988.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `thr_yield'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec864908988] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec864908988/fast] Error 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1170067527/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1170067527.dir/build.make CMakeFiles/cmTryCompileExec1170067527.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1170067527.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1170067527.dir/CheckIncludeFiles.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: ia64intrin.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1170067527.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1170067527/fast] Error 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2313217384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2313217384.dir/build.make CMakeFiles/cmTryCompileExec2313217384.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2313217384.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTryCompileExec2313217384.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2313217384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2313217384.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=read_real_time    CMakeFiles/cmTryCompileExec2313217384.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2313217384 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2313217384.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `read_real_time'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2313217384] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2313217384/fast] Error 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1644684885/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1644684885.dir/build.make CMakeFiles/cmTryCompileExec1644684885.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1644684885.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTryCompileExec1644684885.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1644684885
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1644684885.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=rdtscll    CMakeFiles/cmTryCompileExec1644684885.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1644684885 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1644684885.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `rdtscll'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1644684885] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1644684885/fast] Error 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2316583636/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2316583636.dir/build.make CMakeFiles/cmTryCompileExec2316583636.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2316583636.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2316583636.dir/CheckSymbolExists.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘TIOCSTAT’ undeclared (first use in this function)
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+make[1]: *** [CMakeFiles/cmTryCompileExec2316583636.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2316583636/fast] Error 2
+
+File /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3368689687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3368689687.dir/build.make CMakeFiles/cmTryCompileExec3368689687.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3368689687.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3368689687.dir/CheckSymbolExists.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: sys/filio.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3368689687.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3368689687/fast] Error 2
+
+File /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2923914166/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2923914166.dir/build.make CMakeFiles/cmTryCompileExec2923914166.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2923914166.dir/TestEndianess.c.o
+/usr/bin/gcc   -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2923914166.dir/TestEndianess.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2923914166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2923914166.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall      CMakeFiles/cmTryCompileExec2923914166.dir/TestEndianess.c.o  -o cmTryCompileExec2923914166 -rdynamic 
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4104245850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4104245850.dir/build.make CMakeFiles/cmTryCompileExec4104245850.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4104245850.dir/SIZEOF_UCHAR.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4104245850.dir/SIZEOF_UCHAR.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21:12: error: ‘uchar’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec4104245850.dir/SIZEOF_UCHAR.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4104245850/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2381718392/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2381718392.dir/build.make CMakeFiles/cmTryCompileExec2381718392.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2381718392.dir/SIZEOF_INT8.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2381718392.dir/SIZEOF_INT8.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21:12: error: ‘int8’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec2381718392.dir/SIZEOF_INT8.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2381718392/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1196691266/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1196691266.dir/build.make CMakeFiles/cmTryCompileExec1196691266.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1196691266.dir/SIZEOF_UINT8.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1196691266.dir/SIZEOF_UINT8.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21:12: error: ‘uint8’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec1196691266.dir/SIZEOF_UINT8.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1196691266/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec65380145/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec65380145.dir/build.make CMakeFiles/cmTryCompileExec65380145.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec65380145.dir/SIZEOF_INT16.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec65380145.dir/SIZEOF_INT16.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21:12: error: ‘int16’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec65380145.dir/SIZEOF_INT16.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec65380145/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2556417778/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2556417778.dir/build.make CMakeFiles/cmTryCompileExec2556417778.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2556417778.dir/SIZEOF_UINT16.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec2556417778.dir/SIZEOF_UINT16.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21:12: error: ‘uint16’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2556417778.dir/SIZEOF_UINT16.c.o] Error 1
+make: *** [cmTryCompileExec2556417778/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1176075/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1176075.dir/build.make CMakeFiles/cmTryCompileExec1176075.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1176075.dir/SIZEOF_INT32.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec1176075.dir/SIZEOF_INT32.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21:12: error: ‘int32’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec1176075.dir/SIZEOF_INT32.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1176075/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec206954641/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec206954641.dir/build.make CMakeFiles/cmTryCompileExec206954641.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec206954641.dir/SIZEOF_UINT32.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec206954641.dir/SIZEOF_UINT32.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21:12: error: ‘uint32’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec206954641.dir/SIZEOF_UINT32.c.o] Error 1
+make: *** [cmTryCompileExec206954641/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec981672323/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec981672323.dir/build.make CMakeFiles/cmTryCompileExec981672323.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec981672323.dir/SIZEOF_INT64.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec981672323.dir/SIZEOF_INT64.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21:12: error: ‘int64’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec981672323.dir/SIZEOF_INT64.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec981672323/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec148867626/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec148867626.dir/build.make CMakeFiles/cmTryCompileExec148867626.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec148867626.dir/SIZEOF_UINT64.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec148867626.dir/SIZEOF_UINT64.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21:12: error: ‘uint64’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec148867626.dir/SIZEOF_UINT64.c.o] Error 1
+make: *** [cmTryCompileExec148867626/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4215570827/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4215570827.dir/build.make CMakeFiles/cmTryCompileExec4215570827.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4215570827.dir/SIZEOF_BOOL.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec4215570827.dir/SIZEOF_BOOL.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: error: ‘bool’ undeclared here (not in a function)
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4215570827.dir/SIZEOF_BOOL.c.o] Error 1
+make: *** [cmTryCompileExec4215570827/fast] Error 2
+
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2674585971/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2674585971.dir/build.make CMakeFiles/cmTryCompileExec2674585971.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2674585971.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DTIME_T_UNSIGNED   -o CMakeFiles/cmTryCompileExec2674585971.dir/src.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:4:16: error: ‘time_t’ undeclared (first use in this function)
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:4:16: note: each undeclared identifier is reported only once for each function it appears in
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:4:7: warning: unused variable ‘array’ [-Wunused-variable]
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2674585971.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2674585971/fast] Error 2
+
+Source file was:
+
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3634869883/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3634869883.dir/build.make CMakeFiles/cmTryCompileExec3634869883.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3634869883.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTryCompileExec3634869883.dir/src.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:7:10: error: ‘struct timespec’ has no member named ‘ts_sec’
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:8:10: error: ‘struct timespec’ has no member named ‘ts_nsec’
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:6:19: warning: variable ‘abstime’ set but not used [-Wunused-but-set-variable]
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3634869883.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3634869883/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3706632309/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3706632309.dir/build.make CMakeFiles/cmTryCompileExec3706632309.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3706632309.dir/src.cxx.o
+/usr/bin/c++   -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti  -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTryCompileExec3706632309.dir/src.cxx.o -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.cxx
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.cxx:17:66: error: cannot convert ‘int*’ to ‘hostent**’ for argument ‘7’ to ‘int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)’
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.cxx:15:24: warning: unused variable ‘foo’ [-Wunused-variable]
+make[1]: *** [CMakeFiles/cmTryCompileExec3706632309.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3706632309/fast] Error 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3755103845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3755103845.dir/build.make CMakeFiles/cmTryCompileExec3755103845.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3755103845.dir/CheckIncludeFile.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall     -o CMakeFiles/cmTryCompileExec3755103845.dir/CheckIncludeFile.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3755103845.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3755103845/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2272546093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2272546093.dir/build.make CMakeFiles/cmTryCompileExec2272546093.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2272546093.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTryCompileExec2272546093.dir/src.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:9:7: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+make[1]: *** [CMakeFiles/cmTryCompileExec2272546093.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2272546093/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in* tmp;
+   tmp->sin_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1149216416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1149216416.dir/build.make CMakeFiles/cmTryCompileExec1149216416.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1149216416.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTryCompileExec1149216416.dir/src.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:9:7: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+make[1]: *** [CMakeFiles/cmTryCompileExec1149216416.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1149216416/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in6* tmp;
+   tmp->sin6_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test STRUCT_DIRENT_HAS_D_NAMLEN failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4271972051/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4271972051.dir/build.make CMakeFiles/cmTryCompileExec4271972051.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4271972051.dir/src.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DSTRUCT_DIRENT_HAS_D_NAMLEN   -o CMakeFiles/cmTryCompileExec4271972051.dir/src.c.o   -c /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/src.c:7:7: error: ‘struct dirent’ has no member named ‘d_namlen’
+make[1]: *** [CMakeFiles/cmTryCompileExec4271972051.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4271972051/fast] Error 2
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   struct dirent* tmp;
+   tmp->d_namlen;
+  return 0;
+}
+
+Determining if the function mbscmp exists failed with the following output:
+Change Dir: /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2594105977/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2594105977.dir/build.make CMakeFiles/cmTryCompileExec2594105977.dir/build
+make[1]: Entering directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/Percona-Server-5.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2594105977.dir/CheckFunctionExists.c.o
+/usr/bin/gcc  -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=mbscmp   -o CMakeFiles/cmTryCompileExec2594105977.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2594105977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2594105977.dir/link.txt --verbose=1
+/usr/bin/gcc    -g -O3 -I/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/src  -Wall  -DCHECK_FUNCTION_EXISTS=mbscmp    CMakeFiles/cmTryCompileExec2594105977.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2594105977 -rdynamic 
+CMakeFiles/cmTryCompileExec2594105977.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: undefined reference to `mbscmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2594105977] Error 1
+make[1]: Leaving directory `/home/riven/Downloads/percona-xtrabackup-2.1.2-611.precise/percona-server-5.5-xtrabackup/Percona-Server-5.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2594105977/fast] Error 2
+
+
